@@ -1,18 +1,181 @@
-# peblostorybuddy
+# AI Story Buddy & Quiz Component
 
-A new Flutter project.
+A complete implementation of the **AI Story Buddy & Quiz Component** for the Peblo Flutter Developer Intern Challenge. This project demonstrates a kid-friendly storytelling experience with Text-to-Speech narration, interactive quiz mechanics, smooth animations, and data-driven UI rendering designed for young learners.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+* AI Buddy character with expressive states
+* Text-to-Speech story narration using Flutter TTS
+* Loading and error handling for audio playback
+* Automatic quiz reveal after narration completes
+* Fully data-driven quiz rendering from JSON
+* Dynamic support for any number of answer options
+* Wrong-answer feedback with shake animation and haptic response
+* Success celebration with confetti animation
+* Smooth and responsive Flutter UI
+* Optimized for mid-range Android devices
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# AI-Story-Buddy" 
+## Tech Stack
+
+* Flutter
+* Dart
+* Riverpod
+* flutter_tts
+* Lottie
+* Confetti
+* Flutter Animate
+* Google Fonts
+
+---
+
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="assets/screenshots/1.png" width="250"></td>
+    <td><img src="assets/screenshots/2.png" width="250"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/3.png" width="250"></td>
+    <td><img src="assets/screenshots/4.png" width="250"></td>
+  </tr>
+</table>
+
+---
+
+## Architecture Highlights
+
+* Provider-based state management
+* Separation of UI, business logic, and services
+* Data-driven quiz rendering from JSON
+* Reusable widget architecture
+* Robust audio state handling
+* Graceful error and retry mechanisms
+* Performance-focused implementation
+
+---
+
+## Project Structure
+
+```text
+ai_story_buddy/
+│
+├── assets/
+│   ├── images/
+│   │   ├── ai_buddy.png
+│   │   ├── buddy_happy.png
+│   │   └── buddy_sad.png
+│   │
+│   ├── animations/
+│   │   └── confetti.json
+│   │
+│   └── data/
+│       ├── story.json
+│       └── quiz.json
+│
+├── lib/
+│   ├── main.dart
+│   │
+│   ├── models/
+│   │   ├── story_model.dart
+│   │   └── quiz_model.dart
+│   │
+│   ├── services/
+│   │   └── tts_service.dart
+│   │
+│   ├── providers/
+│   │   ├── audio_provider.dart
+│   │   └── quiz_provider.dart
+│   │
+│   ├── screens/
+│   │   └── home_screen.dart
+│   │
+│   └── widgets/
+│       ├── buddy_widget.dart
+│       ├── story_card.dart
+│       ├── quiz_card.dart
+│       ├── answer_button.dart
+│       └── loading_widget.dart
+│
+└── README.md
+```
+
+---
+
+## Story Content
+
+```text
+Once upon a time, a clever little robot named Pip lost his shiny blue gear in the Whispering Woods...
+```
+
+---
+
+## Quiz JSON
+
+```json
+{
+  "question": "What colour was Pip the Robot's lost gear?",
+  "options": ["Red", "Green", "Blue", "Yellow"],
+  "answer": "Blue"
+}
+```
+
+The quiz UI is generated dynamically from JSON data, allowing future questions to contain different text and varying numbers of answer options without requiring UI changes.
+
+---
+
+## Application Flow
+
+1. User opens the application.
+2. AI Buddy and story card are displayed.
+3. User taps **Read Me a Story**.
+4. TTS narration begins.
+5. Loading and playback states are handled.
+6. Quiz appears automatically after narration completes.
+7. Wrong answers trigger shake animation and haptic feedback.
+8. Correct answers trigger confetti and success state.
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/shiyascholayil/ai-story-buddy.git
+```
+
+### Install Dependencies
+
+```bash
+flutter pub get
+```
+
+### Run Application
+
+```bash
+flutter run
+```
+
+---
+
+## Future Enhancements
+
+* Multiple story support
+* AI-generated stories
+* Voice selection options
+* Story progress tracking
+* Multi-language narration
+* Personalized quiz generation
+* Offline story downloads
+* Achievement and reward system
+
+---
+
+## Author
+
+**Shiyas Cholayil**
+
+GitHub: https://github.com/shiyascholayil
