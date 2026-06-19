@@ -32,18 +32,10 @@ A complete implementation of the **AI Story Buddy & Quiz Component** for the Peb
 
 ---
 
-## Screenshots
+## Demo video
 
-<table>
-  <tr>
-    <td><img src="assets/screenshots/1.png" width="250"></td>
-    <td><img src="assets/screenshots/2.png" width="250"></td>
-  </tr>
-  <tr>
-    <td><img src="assets/screenshots/3.png" width="250"></td>
-    <td><img src="assets/screenshots/4.png" width="250"></td>
-  </tr>
-</table>
+[▶ Watch Demo Video](assets/video/demo-video.mp4)
+
 
 ---
 
