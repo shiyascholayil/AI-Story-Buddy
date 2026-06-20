@@ -1,7 +1,6 @@
-## AI Story Buddy 
+# AI Story Buddy  
 
 An AI-powered Story Buddy & Quiz application built with Flutter. The app provides an interactive storytelling experience for children through Text-to-Speech narration, animated character interactions, quiz-based learning activities, and responsive data-driven user interfaces, creating an engaging and educational environment for young learners.
----
 
 ## Features
 
@@ -22,7 +21,7 @@ An AI-powered Story Buddy & Quiz application built with Flutter. The app provide
 
 * Flutter
 * Dart
-* Riverpod
+* Provider
 * flutter_tts
 * Lottie
 * Confetti
@@ -122,7 +121,7 @@ The quiz UI is generated dynamically from JSON data, allowing future questions t
 ### Clone Repository
 
 ```bash
-git clone https://github.com/shiyascholayil/ai-story-buddy.git
+git clone https://github.com/shiyascholayil/Ai-Story-Buddy.git
 ```
 
 ### Install Dependencies
