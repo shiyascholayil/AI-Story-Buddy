@@ -1,4 +1,4 @@
-# AI Story Buddy & Quiz Component
+# AI Story Buddy 
 
 A complete implementation of the **AI Story Buddy & Quiz Component** for the Peblo Flutter Developer Intern Challenge. This project demonstrates a kid-friendly storytelling experience with Text-to-Speech narration, interactive quiz mechanics, smooth animations, and data-driven UI rendering designed for young learners.
 
