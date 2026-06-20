@@ -1,4 +1,4 @@
-# AI Story Buddy 
+## AI Story Buddy 
 
 An AI-powered Story Buddy & Quiz application built with Flutter. The app provides an interactive storytelling experience for children through Text-to-Speech narration, animated character interactions, quiz-based learning activities, and responsive data-driven user interfaces, creating an engaging and educational environment for young learners.
 ---
