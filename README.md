@@ -54,46 +54,33 @@ A complete implementation of the **AI Story Buddy & Quiz Component** for the Peb
 ## Project Structure
 
 ```text
-ai_story_buddy/
+lib/
+├── models/
+│   ├── quiz_model.dart
+│   ├── quiz_model.g.dart
+│   └── story_state.dart
 │
-├── assets/
-│   ├── images/
-│   │   ├── ai_buddy.png
-│   │   ├── buddy_happy.png
-│   │   └── buddy_sad.png
-│   │
-│   ├── animations/
-│   │   └── confetti.json
-│   │
-│   └── data/
-│       ├── story.json
-│       └── quiz.json
+├── providers/
+│   ├── quiz_provider.dart
+│   └── story_provider.dart
 │
-├── lib/
-│   ├── main.dart
-│   │
-│   ├── models/
-│   │   ├── story_model.dart
-│   │   └── quiz_model.dart
-│   │
-│   ├── services/
-│   │   └── tts_service.dart
-│   │
-│   ├── providers/
-│   │   ├── audio_provider.dart
-│   │   └── quiz_provider.dart
-│   │
-│   ├── screens/
-│   │   └── home_screen.dart
-│   │
-│   └── widgets/
-│       ├── buddy_widget.dart
-│       ├── story_card.dart
-│       ├── quiz_card.dart
-│       ├── answer_button.dart
-│       └── loading_widget.dart
+├── screens/
+│   └── story_screen.dart
 │
-└── README.md
+├── services/
+│   ├── audio_cache_service.dart
+│   └── tts_service.dart
+│
+├── utils/
+│   ├── animations.dart
+│   └── constants.dart
+│
+├── widgets/
+│   ├── quiz_widget.dart
+│   ├── buddy_character.dart
+│   └── celebration_effects.dart
+│
+└── main.dart
 ```
 
 ---
